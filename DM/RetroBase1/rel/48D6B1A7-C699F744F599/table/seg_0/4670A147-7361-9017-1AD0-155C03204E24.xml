@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4670A147-7361-9017-1AD0-155C03204E24" name="Detalle_Orden">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>53BBB671-9ABE-5C0E-6E89-9487E96BEB81</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Orden_Compra_id_orden" id="40BCA1E9-A374-5A0A-C30F-82A4C4E1487C">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>52676E4A-7113-17E6-50F1-F92590035340</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F589829-8D29-53D0-EF34-B577C7EB50BC" referredColumn="E2B5AF3F-6E40-0ACA-C4BA-FA1F133068C5"/>
+</associations>
+</Column>
+<Column name="Articulo_Venta_id_articulo" id="3156949F-B877-87D5-B361-7B18092B2E40">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>615B49E5-6F2B-2552-72FA-068355416FD9</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6017B8D-09CB-E83E-B93A-3410DAF61E5E" referredColumn="BFAA9208-7267-AB98-34B6-95365D8919CB"/>
+</associations>
+</Column>
+<Column name="cantidad" id="4A2024A6-3ECF-13E6-C2A5-AA0A097D6594">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>DA76FC37-144E-4634-0839-CEE460D8F54C</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_historico_venta" id="743A9335-CEFA-FAD4-B305-A451AB947AD1">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>C84EBD64-DC92-D6A1-563D-16F411FBFD63</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C41396CC-46E4-E7BC-4C6C-36F2AC5BB4D0" name="Detalle_Orden_PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>1972102E-FBE6-1E59-7EA7-6C6AB5AD14E6</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3156949F-B877-87D5-B361-7B18092B2E40"/>
+<colUsage columnID="40BCA1E9-A374-5A0A-C30F-82A4C4E1487C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A656F05-7249-8917-B29C-78163397733C" name="Detalle_Orden_Orden_Compra_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>D739490C-AA08-AD62-17BA-D998171AA7AC</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BCA1E9-A374-5A0A-C30F-82A4C4E1487C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A96DFC5D-3DB6-09CC-6F00-22B9E3CCA61E" name="Detalle_Orden_Articulo_Venta_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>C6B4CFC1-3795-2D53-5901-75A71280085E</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3156949F-B877-87D5-B361-7B18092B2E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

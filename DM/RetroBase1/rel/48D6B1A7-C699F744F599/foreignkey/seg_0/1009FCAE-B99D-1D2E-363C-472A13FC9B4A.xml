@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1009FCAE-B99D-1D2E-363C-472A13FC9B4A" containerWithKeyObject="3C4538B7-5F73-C33C-6957-58F2792A05F6" localFKIndex="5365A5C4-79AF-C159-46CC-A1A60AF9CE49" name="Articulo_Venta_Plataforma_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>DE73965D-4DD1-1F21-4A18-311721684BC3</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<referredTableLongName>Plataforma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A14916EF-D0EF-0DF6-43DC-BDF4323E8BD5</referredTableID>
+<keyObject>6048DCEA-638E-83FF-4964-79FD1151408F</keyObject>
+<referredKeyID>6048DCEA-638E-83FF-4964-79FD1151408F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plataforma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53BBB671-9ABE-5C0E-6E89-9487E96BEB81" name="Detalle_Orden">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:21:25 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="DA76FC37-144E-4634-0839-CEE460D8F54C">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:21:36 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_historico_venta" id="C84EBD64-DC92-D6A1-563D-16F411FBFD63">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:21:36 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_orden1" id="52676E4A-7113-17E6-50F1-F92590035340">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:34:36 UTC</createdTime>
+<generatorID>D739490C-AA08-AD62-17BA-D998171AA7AC</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<referedAttribute>688FD9A7-5688-D7F8-6C4C-1C770F010995</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_articulo1" id="615B49E5-6F2B-2552-72FA-068355416FD9">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:34:51 UTC</createdTime>
+<generatorID>C6B4CFC1-3795-2D53-5901-75A71280085E</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<referedAttribute>BCF300B5-5C4A-D455-EF9D-D8589DC14229</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1972102E-FBE6-1E59-7EA7-6C6AB5AD14E6" name="detalle_oden PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:21:47 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>615B49E5-6F2B-2552-72FA-068355416FD9</attributeRef>
+<attributeRef>52676E4A-7113-17E6-50F1-F92590035340</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

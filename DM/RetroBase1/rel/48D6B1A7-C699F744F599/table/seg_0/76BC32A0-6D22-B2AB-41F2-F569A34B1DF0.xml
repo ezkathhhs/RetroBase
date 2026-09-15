@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76BC32A0-6D22-B2AB-41F2-F569A34B1DF0" name="Cliente">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>41224762-C44B-F02F-5120-2A83A22A0BA1</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="FE204872-78E8-1CA9-35C8-31581565C75A">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>545145F2-7511-E235-4BB0-BF1506D866E9</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="A11F26BB-83E2-B0F0-B05F-641E8354E4FD">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>A7997A03-C0F9-3577-07C6-CB870922B52C</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="F8F01E5F-AC18-5560-79E8-A108999E69F5">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>0D8338CD-7566-D1BB-DA67-AEF3DF82C485</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="A7616373-C30A-F554-A119-3EFDE23B7BA4">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>38A1BD26-30B0-A159-E219-866C3ED42C09</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="00597B47-62D4-C86A-BFCC-F12746E7719D">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>9B0B7E6B-D698-02C7-B1B7-94569E7A5055</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="3B1FBB35-5416-F3AE-A359-2924236AABEC">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>4D65A41E-9702-48F0-99A2-A5875177BC12</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_calle" id="ECF2B85A-A0AC-950F-A050-8989E92088AC">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-14 19:43:19 UTC</createdTime>
+<generatorID>2188B66B-B67D-D530-99BD-2FF460707B0F</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="A3E0FCAA-38F7-F4F7-81A3-5F1792AE413C">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-14 19:43:19 UTC</createdTime>
+<generatorID>BE12E225-EEE8-1904-8F49-32029EE03907</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="291877C9-613E-56D7-C686-0B9F7FC38263">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-14 19:43:19 UTC</createdTime>
+<generatorID>92915807-1078-5800-0604-AB2B16937470</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C789EC00-DBC3-96BB-22A2-EB6BF7B50408" name="Cliente_PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>4AD0DD81-5AE9-FACD-D5C0-904A2108311E</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE204872-78E8-1CA9-35C8-31581565C75A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

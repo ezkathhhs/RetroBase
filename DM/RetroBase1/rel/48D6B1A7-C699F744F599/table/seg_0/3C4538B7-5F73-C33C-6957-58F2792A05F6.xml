@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C4538B7-5F73-C33C-6957-58F2792A05F6" name="Articulo_Venta">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>76C7FAAB-8374-E326-DE96-F9E5DBD1C316</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_articulo" id="BFAA9208-7267-AB98-34B6-95365D8919CB">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>BCF300B5-5C4A-D455-EF9D-D8589DC14229</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Juego_id_juego" id="FD268EB3-D32F-F727-B685-42CA0A288F39">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>70B0A970-E951-6A3B-71C6-7F116D19A2CE</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75A9F210-671F-1FC3-B96D-2689FEC979AB" referredColumn="52F540D0-A24B-7C2A-565F-892694E1AF1D"/>
+</associations>
+</Column>
+<Column name="Plataforma_id_plataforma" id="28BBBD4A-C82E-D75E-6EB8-5DA51A5D9164">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>CB9A8334-D079-AD39-03BB-F799E900E453</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1009FCAE-B99D-1D2E-363C-472A13FC9B4A" referredColumn="998EE411-4960-C172-93BF-7521EFA78D92"/>
+</associations>
+</Column>
+<Column name="stock_disponible" id="F4EB994D-A26D-69F2-5BFA-88100D19638E">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>D663FFF3-72DE-38D0-BD0D-AA497F1A094E</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="formato" id="732D2758-79F2-8D72-5080-47E7F3B1CAE9">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>89471B85-6E45-7DA0-993B-4172EDC48E9D</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="ED9854A2-9F30-D5D2-E5BC-83EB267B99AA">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>AD7EF5E6-46EF-9AB2-B011-8F9E894056DB</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_articulo" id="D697880F-C655-560F-22EB-A97AF79296F0">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>B1E0E8B9-4489-CEC5-7731-33EFF28B1D86</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_actual" id="8C2666A3-8575-CD81-C1CF-21AA86F7C7B1">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>265D8F88-D444-A518-1BEC-1FA6114C1E46</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_articulo" id="32F5C7E4-3C17-6BC7-3FF5-2E8F3C0B3939">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-14 19:43:19 UTC</createdTime>
+<generatorID>818F774D-6CB6-D78E-7459-7DF965CD0D4C</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_articulo" id="D162ADEF-76E5-B350-E158-4C17E20BCC37">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-14 19:43:19 UTC</createdTime>
+<generatorID>59581C9E-16AF-3256-A207-D133168E1C31</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72488EBB-F1C1-D165-FA56-9804012A4989" name="Articulo_Venta_PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>EC70323A-1F7B-5D92-8222-BB80ED133E1B</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFAA9208-7267-AB98-34B6-95365D8919CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="468FA6E5-8736-1DEA-2788-1EEABCC016FC" name="Articulo_Venta_Juego_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>4D995FAD-2EDE-96A9-4BA8-A2A07EF52E05</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD268EB3-D32F-F727-B685-42CA0A288F39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5365A5C4-79AF-C159-46CC-A1A60AF9CE49" name="Articulo_Venta_Plataforma_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>DE73965D-4DD1-1F21-4A18-311721684BC3</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28BBBD4A-C82E-D75E-6EB8-5DA51A5D9164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

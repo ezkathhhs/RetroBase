@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B126407-CDB9-2BBD-16B8-22A2010A84F5" name="Juego_Genero">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:06:02 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_juego1" id="AE98C1CE-AAA2-50CB-06E2-3C742E34F9AF">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:26:26 UTC</createdTime>
+<generatorID>58D75495-15A5-78CB-FEA7-3ED1FD0EA805</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<referedAttribute>1DD6AFB4-32E7-49C5-029E-B9BC72BCA022</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genero1" id="83B15489-1F3D-45C9-ACE1-2AEE4B7E0DA2">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:30:56 UTC</createdTime>
+<generatorID>B06A8EDB-E1E4-2C79-14BE-2143DA00A9C2</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="true"/>
+</engineerTo>
+<referedAttribute>57D89050-5093-4B4E-74FD-BCF7F1BAD01D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32A7F5FD-11D3-D85D-2AD1-43D0CEEE1911" name="Juego_Genero PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:06:18 UTC</createdTime>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="48D6B1A7-D419-23CB-BFC8-C699F744F599" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83B15489-1F3D-45C9-ACE1-2AEE4B7E0DA2</attributeRef>
+<attributeRef>AE98C1CE-AAA2-50CB-06E2-3C742E34F9AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

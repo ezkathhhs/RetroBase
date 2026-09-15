@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A14916EF-D0EF-0DF6-43DC-BDF4323E8BD5" name="Plataforma">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>50ACE393-CE7C-D9BF-EA33-AB88F5D8BCBC</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plataforma" id="998EE411-4960-C172-93BF-7521EFA78D92">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>8B165033-5A4A-5894-CF32-71CC3B307961</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_plataforma" id="11F3F7DF-DBF9-FFC4-4642-04F2BC81F898">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>FDA83861-4CBB-18F8-F2E8-7EF7134AEB4C</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa_creadora" id="32516A13-6B96-F2D7-7A73-EC0F545BA331">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>DC8F2653-FECB-820A-A925-ACC9F428A7BC</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_salida" id="DAB1F31D-2A39-C8AD-B0D6-2D62D03500FB">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>6C670DFE-6BF8-7987-9AD4-60546E68F5C1</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6048DCEA-638E-83FF-4964-79FD1151408F" name="Plataforma_PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>E25CA3E1-3529-0278-F07C-A6DBCB9B56B1</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998EE411-4960-C172-93BF-7521EFA78D92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

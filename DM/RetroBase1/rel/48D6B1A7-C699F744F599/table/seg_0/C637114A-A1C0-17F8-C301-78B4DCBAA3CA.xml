@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C637114A-A1C0-17F8-C301-78B4DCBAA3CA" name="Juego_Genero">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>4B126407-CDB9-2BBD-16B8-22A2010A84F5</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Juego_id_juego" id="216542F3-EFE2-4F98-9692-68BDE8C195B1">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>AE98C1CE-AAA2-50CB-06E2-3C742E34F9AF</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E281167-43BB-5915-9AEF-98CAEC38D8B7" referredColumn="52F540D0-A24B-7C2A-565F-892694E1AF1D"/>
+</associations>
+</Column>
+<Column name="Genero_id_genero" id="C36DA4AA-5288-6AC4-BFBF-1BA9283146F2">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>83B15489-1F3D-45C9-ACE1-2AEE4B7E0DA2</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFEF1285-EA84-9502-A4F0-F09EA10394C9" referredColumn="CF84EABB-A752-9C6E-3C34-14C2940740E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D04958B-7145-D76E-77E8-6398966E6A0D" name="Juego_Genero_PK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>32A7F5FD-11D3-D85D-2AD1-43D0CEEE1911</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C36DA4AA-5288-6AC4-BFBF-1BA9283146F2"/>
+<colUsage columnID="216542F3-EFE2-4F98-9692-68BDE8C195B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3497174-C0CB-3970-83B7-7F80B7A5743B" name="Juego_Genero_Juego_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>58D75495-15A5-78CB-FEA7-3ED1FD0EA805</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216542F3-EFE2-4F98-9692-68BDE8C195B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E3ED25C-9B00-3AD5-D2AF-1E90E9B2F2F7" name="Juego_Genero_Genero_FK">
+<createdBy>k4thhhs</createdBy>
+<createdTime>2026-09-09 12:47:09 UTC</createdTime>
+<generatorID>B06A8EDB-E1E4-2C79-14BE-2143DA00A9C2</generatorID>
+<ownerDesignName>RetroBase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C36DA4AA-5288-6AC4-BFBF-1BA9283146F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
