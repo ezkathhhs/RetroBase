@@ -88,4 +88,5 @@ CREATE TABLE Detalle_Orden (
 );
 
 commit;
--- FIN DEL SCRIPT
+
+-- FIN DEL SCRIPT 
